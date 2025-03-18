@@ -4,19 +4,26 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Michael Nash</title>
+    <style>
+        body {
+            font-family: monospace;
+            white-space: pre;
+            margin: 0;
+            padding: 20px;
+            background: white;
+            color: black;
+        }
+    </style>
 </head>
 <body>
-    <pre>
 Hello, welcome to the home page of Michael Nash
 
 Contact: <span id="email"></span>
-    </pre>
 
-    <script>
-        // Encode email to prevent spam bots
-        var user = "tracks.hearts_5l";
-        var domain = "icloud.com";
-        document.getElementById("email").innerText = user + "@" + domain;
-    </script>
+<script>
+    var user = "tracks.hearts_5l";
+    var domain = "icloud.com";
+    document.getElementById("email").innerText = user + "@" + domain;
+</script>
 </body>
 </html>
